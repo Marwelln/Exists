@@ -1,0 +1,20 @@
+{
+    "name": "marwelln/exists",
+    "description": "Run exists queries in Laravel",
+    "require": {
+        "php": ">=7.0",
+        "illuminate/database": "~5.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martin Mårtensson",
+            "email": "marwelln@redward.se"
+        }
+    ],.
+    "autoload": {
+        "psr-4": {
+            "Marwelln\\": "src/"
+        }
+    }
+}
