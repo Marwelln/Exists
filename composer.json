@@ -11,7 +11,7 @@
             "name": "Martin Mårtensson",
             "email": "marwelln@redward.se"
         }
-    ],.
+    ],
     "autoload": {
         "psr-4": {
             "Marwelln\\": "src/"
