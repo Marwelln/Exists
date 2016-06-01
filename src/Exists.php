@@ -70,6 +70,30 @@ class Exists {
     }
 
     /**
+     * WHERE field IS NULL
+     * @param  string $key
+     *
+     * @return self
+     */
+    public function whereNull(string $key) {
+        $this->where[] = $key . ' IS NULL';
+
+        return $this;
+    }
+
+    /**
+     * WHERE field IS NOT NULL
+     * @param  string $key
+     *
+     * @return self
+     */
+    public function whereNotNull(string $key) {
+        $this->where[] = $key . ' IS NOT NULL';
+
+        return $this;
+    }
+
+    /**
      * Run the EXISTS query and return a boolean.
      *
      * SELECT EXISTS(SELECT 1 FROM table WHERE statements) AS `exists`
