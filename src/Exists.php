@@ -1,6 +1,6 @@
 <?php
 
-namespace MArwelln;
+namespace Marwelln;
 
 use DB;
 
